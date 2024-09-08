@@ -1,0 +1,12 @@
+{
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "taiko": "^1.4.1"
+  }
+}

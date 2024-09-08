@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest",
+    "watch": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --watchAll",
+    "acceptance-tests": "gauge run"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
